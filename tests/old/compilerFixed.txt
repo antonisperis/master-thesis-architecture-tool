@@ -1,0 +1,2326 @@
+{
+    "layerList": [
+        {
+            "_id": "L982358",
+            "parentId": "#",
+            "componentId": -1,
+            "_name": "Initial",
+            "setOfItems": {
+                "0": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "250652",
+                    "_name": "Intermediate Code Generator",
+                    "links": "[[\"254846\",\"609239\"],[\"446752\",\"356804\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"254846\",\"446752\"]",
+                    "_functions": {
+                        "0": "619498",
+                        "1": "10305",
+                        "2": "188137"
+                    },
+                    "boundingRec": {
+                        "x": 323,
+                        "y": 508,
+                        "width": 150,
+                        "height": 75,
+                        "top": 508,
+                        "right": 473,
+                        "bottom": 583,
+                        "left": 323
+                    }
+                },
+                "1": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "46208",
+                    "_name": "Token Stream",
+                    "links": "[[\"492622\",\"757046\"],[\"308242\",\"923548\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"492622\",\"308242\"]",
+                    "_functions": {
+                        "0": "958219"
+                    },
+                    "boundingRec": {
+                        "x": 90,
+                        "y": 356,
+                        "width": 150,
+                        "height": 75,
+                        "top": 356,
+                        "right": 240,
+                        "bottom": 431,
+                        "left": 90
+                    }
+                },
+                "2": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "346762",
+                    "_name": "Program",
+                    "links": "[[\"492622\",\"650323\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"492622\"]",
+                    "_functions": "",
+                    "boundingRec": {
+                        "x": 79,
+                        "y": 115,
+                        "width": 150,
+                        "height": 75,
+                        "top": 115,
+                        "right": 229,
+                        "bottom": 190,
+                        "left": 79
+                    }
+                },
+                "3": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "308242",
+                    "_name": "Syntax Analyzer",
+                    "links": "[[\"46208\",\"923548\"],[\"519924\",\"972016\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"46208\",\"519924\"]",
+                    "_functions": {
+                        "0": "900651",
+                        "1": "169682"
+                    },
+                    "boundingRec": {
+                        "x": 91,
+                        "y": 506,
+                        "width": 150,
+                        "height": 75,
+                        "top": 506,
+                        "right": 241,
+                        "bottom": 581,
+                        "left": 91
+                    }
+                },
+                "4": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "492622",
+                    "_name": "Lexical Analyzer",
+                    "links": "[[\"346762\",\"650323\"],[\"46208\",\"757046\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"346762\",\"46208\"]",
+                    "_functions": {
+                        "0": "899163",
+                        "1": "505741",
+                        "2": "846613"
+                    },
+                    "boundingRec": {
+                        "x": 84,
+                        "y": 240,
+                        "width": 150,
+                        "height": 75,
+                        "top": 240,
+                        "right": 234,
+                        "bottom": 315,
+                        "left": 84
+                    }
+                },
+                "5": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "263022",
+                    "_name": "Semantic Analyzer",
+                    "links": "[[\"254846\",\"20571\"],[\"519924\",\"630303\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"254846\",\"519924\"]",
+                    "_functions": {
+                        "0": "748603",
+                        "1": "227718",
+                        "2": "189298"
+                    },
+                    "boundingRec": {
+                        "x": 319,
+                        "y": 262,
+                        "width": 150,
+                        "height": 75,
+                        "top": 262,
+                        "right": 469,
+                        "bottom": 337,
+                        "left": 319
+                    }
+                },
+                "6": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "254846",
+                    "_name": "AnnotatedAST",
+                    "links": "[[\"263022\",\"20571\"],[\"250652\",\"609239\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"263022\",\"250652\"]",
+                    "_functions": {
+                        "0": "97214"
+                    },
+                    "boundingRec": {
+                        "x": 319,
+                        "y": 382,
+                        "width": 150,
+                        "height": 75,
+                        "top": 382,
+                        "right": 469,
+                        "bottom": 457,
+                        "left": 319
+                    }
+                },
+                "7": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "650323",
+                    "_name": "",
+                    "linkState": "point2",
+                    "idComponent1": "346762",
+                    "idComponent2": "492622"
+                },
+                "8": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "757046",
+                    "_name": "",
+                    "linkState": "point1",
+                    "idComponent1": "46208",
+                    "idComponent2": "492622"
+                },
+                "9": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "20571",
+                    "_name": "",
+                    "linkState": "point2",
+                    "idComponent1": "263022",
+                    "idComponent2": "254846"
+                },
+                "10": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "923548",
+                    "_name": "",
+                    "linkState": "point2",
+                    "idComponent1": "46208",
+                    "idComponent2": "308242"
+                },
+                "11": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "519924",
+                    "_name": "Abstract Syntax Tree",
+                    "links": "[[\"263022\",\"630303\"],[\"308242\",\"972016\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"263022\",\"308242\"]",
+                    "_functions": {
+                        "0": "667652"
+                    },
+                    "boundingRec": {
+                        "x": 298,
+                        "y": 121,
+                        "width": 179,
+                        "height": 75,
+                        "top": 121,
+                        "right": 477,
+                        "bottom": 196,
+                        "left": 298
+                    }
+                },
+                "12": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "630303",
+                    "_name": "",
+                    "idComponent1": "519924",
+                    "idComponent2": "263022",
+                    "linkState": "point2"
+                },
+                "13": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "972016",
+                    "_name": "",
+                    "linkState": "point2",
+                    "idComponent1": "308242",
+                    "idComponent2": "519924"
+                },
+                "14": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "609239",
+                    "_name": "",
+                    "linkState": "point1",
+                    "idComponent1": "250652",
+                    "idComponent2": "254846"
+                },
+                "15": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "446752",
+                    "_name": "Intermediate representation",
+                    "links": "[[\"895427\",\"683325\"],[\"250652\",\"356804\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"895427\",\"250652\"]",
+                    "_functions": {
+                        "0": "946989"
+                    },
+                    "boundingRec": {
+                        "x": 601,
+                        "y": 97,
+                        "width": 140,
+                        "height": 71,
+                        "top": 97,
+                        "right": 741,
+                        "bottom": 168,
+                        "left": 601
+                    }
+                },
+                "16": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "895427",
+                    "_name": "Code Optimizer",
+                    "links": "[[\"446752\",\"683325\"],[\"399674\",\"495893\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"446752\",\"399674\"]",
+                    "_functions": {
+                        "0": "339825",
+                        "1": "411220",
+                        "2": "496256",
+                        "3": "187144"
+                    },
+                    "boundingRec": {
+                        "x": 598,
+                        "y": 235,
+                        "width": 150,
+                        "height": 75,
+                        "top": 235,
+                        "right": 748,
+                        "bottom": 310,
+                        "left": 598
+                    }
+                },
+                "17": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "683325",
+                    "_name": "",
+                    "linkState": "point2",
+                    "idComponent1": "446752",
+                    "idComponent2": "895427"
+                },
+                "18": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "399674",
+                    "_name": "Optimized Intermediate",
+                    "links": "[[\"895427\",\"495893\"],[\"411520\",\"590367\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"895427\",\"411520\"]",
+                    "_functions": {
+                        "0": "705627"
+                    },
+                    "boundingRec": {
+                        "x": 601,
+                        "y": 363,
+                        "width": 150,
+                        "height": 75,
+                        "top": 363,
+                        "right": 751,
+                        "bottom": 438,
+                        "left": 601
+                    }
+                },
+                "19": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "495893",
+                    "_name": "",
+                    "linkState": "point2",
+                    "idComponent1": "895427",
+                    "idComponent2": "399674"
+                },
+                "20": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "411520",
+                    "_name": "Code Generator",
+                    "links": "[[\"102734\",\"180664\"],[\"399674\",\"590367\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"102734\",\"399674\"]",
+                    "_functions": {
+                        "0": "513391",
+                        "1": "40372"
+                    },
+                    "boundingRec": {
+                        "x": 605,
+                        "y": 501,
+                        "width": 150,
+                        "height": 75,
+                        "top": 501,
+                        "right": 755,
+                        "bottom": 576,
+                        "left": 605
+                    }
+                },
+                "21": {
+                    "_type": "Component",
+                    "class": "component",
+                    "_description": "No description added.",
+                    "moreInfo": "More info not added.",
+                    "_id": "102734",
+                    "_name": "Executable",
+                    "links": "[[\"411520\",\"180664\"]]",
+                    "subLayers": "",
+                    "linkedItems": "[\"411520\"]",
+                    "_functions": "",
+                    "boundingRec": {
+                        "x": 850,
+                        "y": 180,
+                        "width": 150,
+                        "height": 75,
+                        "top": 180,
+                        "right": 1000,
+                        "bottom": 255,
+                        "left": 850
+                    }
+                },
+                "22": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "180664",
+                    "_name": "",
+                    "linkState": "point2",
+                    "idComponent1": "411520",
+                    "idComponent2": "102734"
+                },
+                "23": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "590367",
+                    "_name": "",
+                    "linkState": "point2",
+                    "idComponent1": "399674",
+                    "idComponent2": "411520"
+                },
+                "24": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "read the passed Program as a stream",
+                    "moreInfo": "No info has been added.",
+                    "_id": "899163",
+                    "_name": "readCharacterStream",
+                    "owners": "492622",
+                    "x": "1057.947998046875",
+                    "y": "226.20834350585938"
+                },
+                "25": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "extract tokens from the character stream.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "505741",
+                    "_name": "extractTokens",
+                    "owners": "492622",
+                    "x": "1057.947998046875",
+                    "y": "259.7083435058594"
+                },
+                "26": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "creates a stream of tokens",
+                    "moreInfo": "No info has been added.",
+                    "_id": "846613",
+                    "_name": "createTokenStream",
+                    "owners": "492622",
+                    "x": "1057.947998046875",
+                    "y": "293.2083435058594"
+                },
+                "27": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "The token stream is passed to syntax analyzer",
+                    "moreInfo": "No info has been added.",
+                    "_id": "958219",
+                    "_name": "passedToSyntaxAnalyzer",
+                    "owners": "46208",
+                    "x": "1057.947998046875",
+                    "y": "326.7083435058594"
+                },
+                "28": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "900651",
+                    "_name": "checkSyntaxStructure",
+                    "owners": "308242",
+                    "x": "1057.947998046875",
+                    "y": "360.2083435058594"
+                },
+                "29": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "Build the abstract syntax tree (AST).",
+                    "moreInfo": "No info has been added.",
+                    "_id": "169682",
+                    "_name": "buildSyntaxTree",
+                    "owners": "308242",
+                    "x": "1057.947998046875",
+                    "y": "393.7083435058594"
+                },
+                "30": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "667652",
+                    "_name": "passedToSemanticAnalyzer",
+                    "owners": "519924",
+                    "x": "1057.947998046875",
+                    "y": "427.2083435058594"
+                },
+                "31": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "748603",
+                    "_name": "checkDeclarationsAndStatements",
+                    "owners": "263022",
+                    "x": "1057.947998046875",
+                    "y": "461.16668701171875"
+                },
+                "32": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "227718",
+                    "_name": "checkTypes",
+                    "owners": "263022",
+                    "x": "1057.947998046875",
+                    "y": "494.2083435058594"
+                },
+                "33": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "189298",
+                    "_name": "generateSymbolTable",
+                    "owners": "263022",
+                    "x": "1057.947998046875",
+                    "y": "527.7083740234375"
+                },
+                "34": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "97214",
+                    "_name": "passedToIntCodeGenerator",
+                    "owners": "254846",
+                    "x": "1057.947998046875",
+                    "y": "561.2083740234375"
+                },
+                "35": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "619498",
+                    "_name": "getAnnotatedSyntaxTree",
+                    "owners": "250652",
+                    "x": "1057.947998046875",
+                    "y": "573.375"
+                },
+                "36": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "10305",
+                    "_name": "produceQuads",
+                    "owners": "250652",
+                    "x": "1057.947998046875",
+                    "y": "574.0416870117188"
+                },
+                "37": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "188137",
+                    "_name": "exportIntermediateRepresentation",
+                    "owners": "250652",
+                    "x": "1057.947998046875",
+                    "y": "573.7083740234375"
+                },
+                "38": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "946989",
+                    "_name": "passedToCodeOptimizer",
+                    "owners": "446752",
+                    "x": "1057.947998046875",
+                    "y": "573.875"
+                },
+                "39": {
+                    "_type": "Link",
+                    "class": "link",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "356804",
+                    "_name": "New Link",
+                    "linkState": "point2",
+                    "idComponent1": "250652",
+                    "idComponent2": "446752"
+                },
+                "40": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "339825",
+                    "_name": "eliminateDeadCode",
+                    "owners": "895427",
+                    "x": "1057.947998046875",
+                    "y": "550.7083740234375"
+                },
+                "41": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "411220",
+                    "_name": "compileTimeEvaluation",
+                    "owners": "895427",
+                    "x": "1057.947998046875",
+                    "y": "584.2083740234375"
+                },
+                "42": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "496256",
+                    "_name": "strengthReduction",
+                    "owners": "895427",
+                    "x": "1057.947998046875",
+                    "y": "617.7083740234375"
+                },
+                "43": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "187144",
+                    "_name": "exportOptimizedCode",
+                    "owners": "895427",
+                    "x": "1057.947998046875",
+                    "y": "651.2083740234375"
+                },
+                "44": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "705627",
+                    "_name": "passedToCodeGenerator",
+                    "owners": "399674",
+                    "x": "1057.947998046875",
+                    "y": "574.3333740234375"
+                },
+                "45": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "513391",
+                    "_name": "createExecutable",
+                    "owners": "411520",
+                    "x": "1057.947998046875",
+                    "y": "550.2083740234375"
+                },
+                "46": {
+                    "_type": "Function",
+                    "class": "function",
+                    "_description": "No description added.",
+                    "moreInfo": "No info has been added.",
+                    "_id": "40372",
+                    "_name": "produceMachineCode",
+                    "owners": "411520",
+                    "x": "1057.947998046875",
+                    "y": "583.7083740234375"
+                },
+                "idList": " 250652,46208,346762,308242,492622,263022,254846,650323,757046,20571,923548,519924,630303,972016,609239,446752,895427,683325,399674,495893,411520,102734,180664,590367,899163,505741,846613,958219,900651,169682,667652,748603,227718,189298,97214,619498,10305,188137,946989,356804,339825,411220,496256,187144,705627,513391,40372",
+                "functionCounter": "22"
+            },
+            "domElement": {},
+            "domFunctions": {},
+            "treeObj": "{\"id\":\"L982358branch\",\"parent\":\"#\",\"text\":\"Initial\"}"
+        },
+        {
+            "_id": "L574346",
+            "parentId": "L982358",
+            "componentId": "308242",
+            "_name": "syntaxAnalyzerSubArchitecture",
+            "setOfItems": {
+                "itemList": [],
+                "idList": [],
+                "functionCounter": 0
+            },
+            "domElement": {},
+            "domFunctions": {},
+            "treeObj": "{\"id\":\"L574346branch\",\"parent\":\"L982358branch\",\"text\":\"syntaxAnalyzerSubAr...\"}"
+        }
+    ],
+    "idList": [
+        "L982358",
+        "L574346"
+    ],
+    "itemMap": {
+        "L982358": {
+            "idList": " 250652,46208,346762,308242,492622,263022,254846,519924,446752,895427,399674,411520,102734,899163,505741,846613,958219,900651,169682,667652,748603,227718,189298,97214,619498,10305,188137,946989,339825,411220,496256,187144,705627,513391,40372,650323,757046,20571,923548,630303,972016,609239,683325,495893,180664,590367,356804",
+            "functionCounter": "22",
+            "0": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "250652",
+                "_name": "Intermediate Code Generator",
+                "links": "[[\"254846\",\"609239\"],[\"446752\",\"356804\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"254846\",\"446752\"]",
+                "_functions": {
+                    "0": "619498",
+                    "1": "10305",
+                    "2": "188137"
+                },
+                "boundingRec": {
+                    "x": 371,
+                    "y": 530,
+                    "width": 150,
+                    "height": 75,
+                    "top": 530,
+                    "right": 521,
+                    "bottom": 605,
+                    "left": 371
+                }
+            },
+            "1": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "46208",
+                "_name": "Token Stream",
+                "links": "[[\"492622\",\"757046\"],[\"308242\",\"923548\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"492622\",\"308242\"]",
+                "_functions": {
+                    "0": "958219"
+                },
+                "boundingRec": {
+                    "x": 90,
+                    "y": 356,
+                    "width": 150,
+                    "height": 75,
+                    "top": 356,
+                    "right": 240,
+                    "bottom": 431,
+                    "left": 90
+                }
+            },
+            "2": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "346762",
+                "_name": "Program",
+                "links": "[[\"492622\",\"650323\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"492622\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 79,
+                    "y": 115,
+                    "width": 150,
+                    "height": 75,
+                    "top": 115,
+                    "right": 229,
+                    "bottom": 190,
+                    "left": 79
+                }
+            },
+            "3": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "308242",
+                "_name": "Syntax Analyzer",
+                "links": "[[\"46208\",\"923548\"],[\"519924\",\"972016\"]]",
+                "subLayers": {
+                    "0": "L574346"
+                },
+                "linkedItems": "[\"46208\",\"519924\"]",
+                "_functions": {
+                    "0": "900651",
+                    "1": "169682"
+                },
+                "boundingRec": {
+                    "x": 91,
+                    "y": 506,
+                    "width": 150,
+                    "height": 75,
+                    "top": 506,
+                    "right": 241,
+                    "bottom": 581,
+                    "left": 91
+                }
+            },
+            "4": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "492622",
+                "_name": "Lexical Analyzer",
+                "links": "[[\"346762\",\"650323\"],[\"46208\",\"757046\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"346762\",\"46208\"]",
+                "_functions": {
+                    "0": "899163",
+                    "1": "505741",
+                    "2": "846613"
+                },
+                "boundingRec": {
+                    "x": 84,
+                    "y": 240,
+                    "width": 150,
+                    "height": 75,
+                    "top": 240,
+                    "right": 234,
+                    "bottom": 315,
+                    "left": 84
+                }
+            },
+            "5": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "263022",
+                "_name": "Semantic Analyzer",
+                "links": "[[\"254846\",\"20571\"],[\"519924\",\"630303\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"254846\",\"519924\"]",
+                "_functions": {
+                    "0": "748603",
+                    "1": "227718",
+                    "2": "189298"
+                },
+                "boundingRec": {
+                    "x": 319,
+                    "y": 262,
+                    "width": 150,
+                    "height": 75,
+                    "top": 262,
+                    "right": 469,
+                    "bottom": 337,
+                    "left": 319
+                }
+            },
+            "6": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "254846",
+                "_name": "AnnotatedAST",
+                "links": "[[\"263022\",\"20571\"],[\"250652\",\"609239\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"263022\",\"250652\"]",
+                "_functions": {
+                    "0": "97214"
+                },
+                "boundingRec": {
+                    "x": 319,
+                    "y": 382,
+                    "width": 150,
+                    "height": 75,
+                    "top": 382,
+                    "right": 469,
+                    "bottom": 457,
+                    "left": 319
+                }
+            },
+            "7": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "519924",
+                "_name": "Abstract Syntax Tree",
+                "links": "[[\"263022\",\"630303\"],[\"308242\",\"972016\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"263022\",\"308242\"]",
+                "_functions": {
+                    "0": "667652"
+                },
+                "boundingRec": {
+                    "x": 298,
+                    "y": 121,
+                    "width": 179,
+                    "height": 75,
+                    "top": 121,
+                    "right": 477,
+                    "bottom": 196,
+                    "left": 298
+                }
+            },
+            "8": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "446752",
+                "_name": "Intermediate representation",
+                "links": "[[\"895427\",\"683325\"],[\"250652\",\"356804\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"895427\",\"250652\"]",
+                "_functions": {
+                    "0": "946989"
+                },
+                "boundingRec": {
+                    "x": 549,
+                    "y": 116,
+                    "width": 140,
+                    "height": 71,
+                    "top": 116,
+                    "right": 689,
+                    "bottom": 187,
+                    "left": 549
+                }
+            },
+            "9": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "895427",
+                "_name": "Code Optimizer",
+                "links": "[[\"446752\",\"683325\"],[\"399674\",\"495893\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"446752\",\"399674\"]",
+                "_functions": {
+                    "0": "339825",
+                    "1": "411220",
+                    "2": "496256",
+                    "3": "187144"
+                },
+                "boundingRec": {
+                    "x": 648,
+                    "y": 246,
+                    "width": 150,
+                    "height": 75,
+                    "top": 246,
+                    "right": 798,
+                    "bottom": 321,
+                    "left": 648
+                }
+            },
+            "10": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "399674",
+                "_name": "Optimized Intermediate",
+                "links": "[[\"895427\",\"495893\"],[\"411520\",\"590367\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"895427\",\"411520\"]",
+                "_functions": {
+                    "0": "705627"
+                },
+                "boundingRec": {
+                    "x": 601,
+                    "y": 363,
+                    "width": 150,
+                    "height": 75,
+                    "top": 363,
+                    "right": 751,
+                    "bottom": 438,
+                    "left": 601
+                }
+            },
+            "11": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "411520",
+                "_name": "Code Generator",
+                "links": "[[\"102734\",\"180664\"],[\"399674\",\"590367\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"102734\",\"399674\"]",
+                "_functions": {
+                    "0": "513391",
+                    "1": "40372"
+                },
+                "boundingRec": {
+                    "x": 605,
+                    "y": 501,
+                    "width": 150,
+                    "height": 75,
+                    "top": 501,
+                    "right": 755,
+                    "bottom": 576,
+                    "left": 605
+                }
+            },
+            "12": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "102734",
+                "_name": "Executable",
+                "links": "[[\"411520\",\"180664\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"411520\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 850,
+                    "y": 180,
+                    "width": 150,
+                    "height": 75,
+                    "top": 180,
+                    "right": 1000,
+                    "bottom": 255,
+                    "left": 850
+                }
+            },
+            "13": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "read the passed Program as a stream",
+                "moreInfo": "No info has been added.",
+                "_id": "899163",
+                "_name": "readCharacterStream",
+                "owners": "492622",
+                "x": "1604.234375",
+                "y": "226.40625"
+            },
+            "14": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "extract tokens from the character stream.",
+                "moreInfo": "No info has been added.",
+                "_id": "505741",
+                "_name": "extractTokens",
+                "owners": "492622",
+                "x": "1604.234375",
+                "y": "259.90625"
+            },
+            "15": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "creates a stream of tokens",
+                "moreInfo": "No info has been added.",
+                "_id": "846613",
+                "_name": "createTokenStream",
+                "owners": "492622",
+                "x": "1604.234375",
+                "y": "293.40625"
+            },
+            "16": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "The token stream is passed to syntax analyzer",
+                "moreInfo": "No info has been added.",
+                "_id": "958219",
+                "_name": "passedToSyntaxAnalyzer",
+                "owners": "46208",
+                "x": "1604.234375",
+                "y": "326.90625"
+            },
+            "17": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "900651",
+                "_name": "checkSyntaxStructure",
+                "owners": "308242",
+                "x": "1604.234375",
+                "y": "360.40625"
+            },
+            "18": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "Build the abstract syntax tree (AST).",
+                "moreInfo": "No info has been added.",
+                "_id": "169682",
+                "_name": "buildSyntaxTree",
+                "owners": "308242",
+                "x": "1604.234375",
+                "y": "393.90625"
+            },
+            "19": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "667652",
+                "_name": "passedToSemanticAnalyzer",
+                "owners": "519924",
+                "x": "1604.234375",
+                "y": "427.40625"
+            },
+            "20": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "748603",
+                "_name": "checkDeclarationsAndStatements",
+                "owners": "263022",
+                "x": "1604.234375",
+                "y": "460.90625"
+            },
+            "21": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "227718",
+                "_name": "checkTypes",
+                "owners": "263022",
+                "x": "1604.234375",
+                "y": "494.40625"
+            },
+            "22": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "189298",
+                "_name": "generateSymbolTable",
+                "owners": "263022",
+                "x": "1604.234375",
+                "y": "527.90625"
+            },
+            "23": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "97214",
+                "_name": "passedToIntCodeGenerator",
+                "owners": "254846",
+                "x": "1604.234375",
+                "y": "561.40625"
+            },
+            "24": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "619498",
+                "_name": "getAnnotatedSyntaxTree",
+                "owners": "250652",
+                "x": "1604.234375",
+                "y": "594.90625"
+            },
+            "25": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "10305",
+                "_name": "produceQuads",
+                "owners": "250652",
+                "x": "1604.234375",
+                "y": "628.40625"
+            },
+            "26": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "188137",
+                "_name": "exportIntermediateRepresentation",
+                "owners": "250652",
+                "x": "1604.234375",
+                "y": "661.90625"
+            },
+            "27": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "946989",
+                "_name": "passedToCodeOptimizer",
+                "owners": "446752",
+                "x": "1604.234375",
+                "y": "695.40625"
+            },
+            "28": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "339825",
+                "_name": "eliminateDeadCode",
+                "owners": "895427",
+                "x": "1604.234375",
+                "y": "728.90625"
+            },
+            "29": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "411220",
+                "_name": "compileTimeEvaluation",
+                "owners": "895427",
+                "x": "1604.234375",
+                "y": "762.40625"
+            },
+            "30": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "496256",
+                "_name": "strengthReduction",
+                "owners": "895427",
+                "x": "1604.234375",
+                "y": "795.90625"
+            },
+            "31": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "187144",
+                "_name": "exportOptimizedCode",
+                "owners": "895427",
+                "x": "1604.234375",
+                "y": "829.40625"
+            },
+            "32": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "705627",
+                "_name": "passedToCodeGenerator",
+                "owners": "399674",
+                "x": "1604.234375",
+                "y": "862.90625"
+            },
+            "33": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "513391",
+                "_name": "createExecutable",
+                "owners": "411520",
+                "x": "1604.234375",
+                "y": "896.40625"
+            },
+            "34": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "40372",
+                "_name": "produceMachineCode",
+                "owners": "411520",
+                "x": "1604.234375",
+                "y": "929.90625"
+            },
+            "35": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "650323",
+                "_name": "",
+                "idComponent1": "346762",
+                "idComponent2": "492622",
+                "linkState": "point2"
+            },
+            "36": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "757046",
+                "_name": "",
+                "idComponent1": "46208",
+                "idComponent2": "492622",
+                "linkState": "point1"
+            },
+            "37": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "20571",
+                "_name": "",
+                "idComponent1": "263022",
+                "idComponent2": "254846",
+                "linkState": "point2"
+            },
+            "38": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "923548",
+                "_name": "",
+                "idComponent1": "46208",
+                "idComponent2": "308242",
+                "linkState": "point2"
+            },
+            "39": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "630303",
+                "_name": "",
+                "idComponent1": "519924",
+                "idComponent2": "263022",
+                "linkState": "point2"
+            },
+            "40": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "972016",
+                "_name": "",
+                "idComponent1": "308242",
+                "idComponent2": "519924",
+                "linkState": "point2"
+            },
+            "41": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "609239",
+                "_name": "",
+                "idComponent1": "250652",
+                "idComponent2": "254846",
+                "linkState": "point1"
+            },
+            "42": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "683325",
+                "_name": "",
+                "idComponent1": "446752",
+                "idComponent2": "895427",
+                "linkState": "point2"
+            },
+            "43": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "495893",
+                "_name": "",
+                "idComponent1": "895427",
+                "idComponent2": "399674",
+                "linkState": "point2"
+            },
+            "44": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "180664",
+                "_name": "",
+                "idComponent1": "411520",
+                "idComponent2": "102734",
+                "linkState": "point2"
+            },
+            "45": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "590367",
+                "_name": "",
+                "idComponent1": "399674",
+                "idComponent2": "411520",
+                "linkState": "point2"
+            },
+            "46": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "356804",
+                "_name": "",
+                "idComponent1": "250652",
+                "idComponent2": "446752",
+                "linkState": "point2"
+            }
+        },
+        "L574346": {
+            "idList": " 718234,361218,963686,298987,419696,137391,885600,801742,754275,757342,868780",
+            "functionCounter": "0",
+            "0": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "718234",
+                "_name": "New Item",
+                "links": "[[\"963686\",\"801742\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"963686\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 649,
+                    "y": 169,
+                    "width": 150,
+                    "height": 75,
+                    "top": 169,
+                    "right": 799,
+                    "bottom": 244,
+                    "left": 649
+                }
+            },
+            "1": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "361218",
+                "_name": "New Item",
+                "links": "[[\"963686\",\"868780\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"963686\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 62,
+                    "y": 404,
+                    "width": 150,
+                    "height": 75,
+                    "top": 404,
+                    "right": 212,
+                    "bottom": 479,
+                    "left": 62
+                }
+            },
+            "2": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "963686",
+                "_name": "New Item",
+                "links": "[[\"419696\",\"885600\"],[\"718234\",\"801742\"],[\"137391\",\"754275\"],[\"298987\",\"757342\"],[\"361218\",\"868780\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"419696\",\"718234\",\"137391\",\"298987\",\"361218\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 424,
+                    "y": 369,
+                    "width": 150,
+                    "height": 75,
+                    "top": 369,
+                    "right": 574,
+                    "bottom": 444,
+                    "left": 424
+                }
+            },
+            "3": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "298987",
+                "_name": "New Item",
+                "links": "[[\"963686\",\"757342\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"963686\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 247,
+                    "y": 596,
+                    "width": 150,
+                    "height": 75,
+                    "top": 596,
+                    "right": 397,
+                    "bottom": 671,
+                    "left": 247
+                }
+            },
+            "4": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "419696",
+                "_name": "New Item",
+                "links": "[[\"963686\",\"885600\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"963686\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 220,
+                    "y": 186,
+                    "width": 150,
+                    "height": 75,
+                    "top": 186,
+                    "right": 370,
+                    "bottom": 261,
+                    "left": 220
+                }
+            },
+            "5": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "137391",
+                "_name": "New Item",
+                "links": "[[\"963686\",\"754275\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"963686\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 769,
+                    "y": 518,
+                    "width": 150,
+                    "height": 75,
+                    "top": 518,
+                    "right": 919,
+                    "bottom": 593,
+                    "left": 769
+                }
+            },
+            "6": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "885600",
+                "_name": "",
+                "linkState": "",
+                "idComponent1": "963686",
+                "idComponent2": "419696"
+            },
+            "7": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "801742",
+                "_name": "",
+                "linkState": "",
+                "idComponent1": "718234",
+                "idComponent2": "963686"
+            },
+            "8": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "754275",
+                "_name": "",
+                "linkState": "",
+                "idComponent1": "963686",
+                "idComponent2": "137391"
+            },
+            "9": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "757342",
+                "_name": "",
+                "linkState": "",
+                "idComponent1": "963686",
+                "idComponent2": "298987"
+            },
+            "10": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "868780",
+                "_name": "",
+                "linkState": "",
+                "idComponent1": "361218",
+                "idComponent2": "963686"
+            }
+        }
+    },
+    "selectedLayer": {
+        "_id": "L982358",
+        "parentId": "#",
+        "componentId": -1,
+        "_name": "Initial",
+        "setOfItems": {
+            "0": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "250652",
+                "_name": "Intermediate Code Generator",
+                "links": "[[\"254846\",\"609239\"],[\"446752\",\"356804\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"254846\",\"446752\"]",
+                "_functions": {
+                    "0": "619498",
+                    "1": "10305",
+                    "2": "188137"
+                },
+                "boundingRec": {
+                    "x": 323,
+                    "y": 508,
+                    "width": 150,
+                    "height": 75,
+                    "top": 508,
+                    "right": 473,
+                    "bottom": 583,
+                    "left": 323
+                }
+            },
+            "1": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "46208",
+                "_name": "Token Stream",
+                "links": "[[\"492622\",\"757046\"],[\"308242\",\"923548\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"492622\",\"308242\"]",
+                "_functions": {
+                    "0": "958219"
+                },
+                "boundingRec": {
+                    "x": 90,
+                    "y": 356,
+                    "width": 150,
+                    "height": 75,
+                    "top": 356,
+                    "right": 240,
+                    "bottom": 431,
+                    "left": 90
+                }
+            },
+            "2": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "346762",
+                "_name": "Program",
+                "links": "[[\"492622\",\"650323\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"492622\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 79,
+                    "y": 115,
+                    "width": 150,
+                    "height": 75,
+                    "top": 115,
+                    "right": 229,
+                    "bottom": 190,
+                    "left": 79
+                }
+            },
+            "3": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "308242",
+                "_name": "Syntax Analyzer",
+                "links": "[[\"46208\",\"923548\"],[\"519924\",\"972016\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"46208\",\"519924\"]",
+                "_functions": {
+                    "0": "900651",
+                    "1": "169682"
+                },
+                "boundingRec": {
+                    "x": 91,
+                    "y": 506,
+                    "width": 150,
+                    "height": 75,
+                    "top": 506,
+                    "right": 241,
+                    "bottom": 581,
+                    "left": 91
+                }
+            },
+            "4": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "492622",
+                "_name": "Lexical Analyzer",
+                "links": "[[\"346762\",\"650323\"],[\"46208\",\"757046\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"346762\",\"46208\"]",
+                "_functions": {
+                    "0": "899163",
+                    "1": "505741",
+                    "2": "846613"
+                },
+                "boundingRec": {
+                    "x": 84,
+                    "y": 240,
+                    "width": 150,
+                    "height": 75,
+                    "top": 240,
+                    "right": 234,
+                    "bottom": 315,
+                    "left": 84
+                }
+            },
+            "5": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "263022",
+                "_name": "Semantic Analyzer",
+                "links": "[[\"254846\",\"20571\"],[\"519924\",\"630303\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"254846\",\"519924\"]",
+                "_functions": {
+                    "0": "748603",
+                    "1": "227718",
+                    "2": "189298"
+                },
+                "boundingRec": {
+                    "x": 319,
+                    "y": 262,
+                    "width": 150,
+                    "height": 75,
+                    "top": 262,
+                    "right": 469,
+                    "bottom": 337,
+                    "left": 319
+                }
+            },
+            "6": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "254846",
+                "_name": "AnnotatedAST",
+                "links": "[[\"263022\",\"20571\"],[\"250652\",\"609239\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"263022\",\"250652\"]",
+                "_functions": {
+                    "0": "97214"
+                },
+                "boundingRec": {
+                    "x": 319,
+                    "y": 382,
+                    "width": 150,
+                    "height": 75,
+                    "top": 382,
+                    "right": 469,
+                    "bottom": 457,
+                    "left": 319
+                }
+            },
+            "7": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "650323",
+                "_name": "",
+                "linkState": "point2",
+                "idComponent1": "346762",
+                "idComponent2": "492622"
+            },
+            "8": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "757046",
+                "_name": "",
+                "linkState": "point1",
+                "idComponent1": "46208",
+                "idComponent2": "492622"
+            },
+            "9": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "20571",
+                "_name": "",
+                "linkState": "point2",
+                "idComponent1": "263022",
+                "idComponent2": "254846"
+            },
+            "10": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "923548",
+                "_name": "",
+                "linkState": "point2",
+                "idComponent1": "46208",
+                "idComponent2": "308242"
+            },
+            "11": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "519924",
+                "_name": "Abstract Syntax Tree",
+                "links": "[[\"263022\",\"630303\"],[\"308242\",\"972016\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"263022\",\"308242\"]",
+                "_functions": {
+                    "0": "667652"
+                },
+                "boundingRec": {
+                    "x": 298,
+                    "y": 121,
+                    "width": 179,
+                    "height": 75,
+                    "top": 121,
+                    "right": 477,
+                    "bottom": 196,
+                    "left": 298
+                }
+            },
+            "12": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "630303",
+                "_name": "",
+                "idComponent1": "519924",
+                "idComponent2": "263022",
+                "linkState": "point2"
+            },
+            "13": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "972016",
+                "_name": "",
+                "linkState": "point2",
+                "idComponent1": "308242",
+                "idComponent2": "519924"
+            },
+            "14": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "609239",
+                "_name": "",
+                "linkState": "point1",
+                "idComponent1": "250652",
+                "idComponent2": "254846"
+            },
+            "15": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "446752",
+                "_name": "Intermediate representation",
+                "links": "[[\"895427\",\"683325\"],[\"250652\",\"356804\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"895427\",\"250652\"]",
+                "_functions": {
+                    "0": "946989"
+                },
+                "boundingRec": {
+                    "x": 601,
+                    "y": 97,
+                    "width": 140,
+                    "height": 71,
+                    "top": 97,
+                    "right": 741,
+                    "bottom": 168,
+                    "left": 601
+                }
+            },
+            "16": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "895427",
+                "_name": "Code Optimizer",
+                "links": "[[\"446752\",\"683325\"],[\"399674\",\"495893\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"446752\",\"399674\"]",
+                "_functions": {
+                    "0": "339825",
+                    "1": "411220",
+                    "2": "496256",
+                    "3": "187144"
+                },
+                "boundingRec": {
+                    "x": 598,
+                    "y": 235,
+                    "width": 150,
+                    "height": 75,
+                    "top": 235,
+                    "right": 748,
+                    "bottom": 310,
+                    "left": 598
+                }
+            },
+            "17": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "683325",
+                "_name": "",
+                "linkState": "point2",
+                "idComponent1": "446752",
+                "idComponent2": "895427"
+            },
+            "18": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "399674",
+                "_name": "Optimized Intermediate",
+                "links": "[[\"895427\",\"495893\"],[\"411520\",\"590367\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"895427\",\"411520\"]",
+                "_functions": {
+                    "0": "705627"
+                },
+                "boundingRec": {
+                    "x": 601,
+                    "y": 363,
+                    "width": 150,
+                    "height": 75,
+                    "top": 363,
+                    "right": 751,
+                    "bottom": 438,
+                    "left": 601
+                }
+            },
+            "19": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "495893",
+                "_name": "",
+                "linkState": "point2",
+                "idComponent1": "895427",
+                "idComponent2": "399674"
+            },
+            "20": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "411520",
+                "_name": "Code Generator",
+                "links": "[[\"102734\",\"180664\"],[\"399674\",\"590367\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"102734\",\"399674\"]",
+                "_functions": {
+                    "0": "513391",
+                    "1": "40372"
+                },
+                "boundingRec": {
+                    "x": 605,
+                    "y": 501,
+                    "width": 150,
+                    "height": 75,
+                    "top": 501,
+                    "right": 755,
+                    "bottom": 576,
+                    "left": 605
+                }
+            },
+            "21": {
+                "_type": "Component",
+                "class": "component",
+                "_description": "No description added.",
+                "moreInfo": "More info not added.",
+                "_id": "102734",
+                "_name": "Executable",
+                "links": "[[\"411520\",\"180664\"]]",
+                "subLayers": "",
+                "linkedItems": "[\"411520\"]",
+                "_functions": "",
+                "boundingRec": {
+                    "x": 850,
+                    "y": 180,
+                    "width": 150,
+                    "height": 75,
+                    "top": 180,
+                    "right": 1000,
+                    "bottom": 255,
+                    "left": 850
+                }
+            },
+            "22": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "180664",
+                "_name": "",
+                "linkState": "point2",
+                "idComponent1": "411520",
+                "idComponent2": "102734"
+            },
+            "23": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "590367",
+                "_name": "",
+                "linkState": "point2",
+                "idComponent1": "399674",
+                "idComponent2": "411520"
+            },
+            "24": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "read the passed Program as a stream",
+                "moreInfo": "No info has been added.",
+                "_id": "899163",
+                "_name": "readCharacterStream",
+                "owners": "492622",
+                "x": "1057.947998046875",
+                "y": "226.20834350585938"
+            },
+            "25": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "extract tokens from the character stream.",
+                "moreInfo": "No info has been added.",
+                "_id": "505741",
+                "_name": "extractTokens",
+                "owners": "492622",
+                "x": "1057.947998046875",
+                "y": "259.7083435058594"
+            },
+            "26": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "creates a stream of tokens",
+                "moreInfo": "No info has been added.",
+                "_id": "846613",
+                "_name": "createTokenStream",
+                "owners": "492622",
+                "x": "1057.947998046875",
+                "y": "293.2083435058594"
+            },
+            "27": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "The token stream is passed to syntax analyzer",
+                "moreInfo": "No info has been added.",
+                "_id": "958219",
+                "_name": "passedToSyntaxAnalyzer",
+                "owners": "46208",
+                "x": "1057.947998046875",
+                "y": "326.7083435058594"
+            },
+            "28": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "900651",
+                "_name": "checkSyntaxStructure",
+                "owners": "308242",
+                "x": "1057.947998046875",
+                "y": "360.2083435058594"
+            },
+            "29": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "Build the abstract syntax tree (AST).",
+                "moreInfo": "No info has been added.",
+                "_id": "169682",
+                "_name": "buildSyntaxTree",
+                "owners": "308242",
+                "x": "1057.947998046875",
+                "y": "393.7083435058594"
+            },
+            "30": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "667652",
+                "_name": "passedToSemanticAnalyzer",
+                "owners": "519924",
+                "x": "1057.947998046875",
+                "y": "427.2083435058594"
+            },
+            "31": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "748603",
+                "_name": "checkDeclarationsAndStatements",
+                "owners": "263022",
+                "x": "1057.947998046875",
+                "y": "461.16668701171875"
+            },
+            "32": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "227718",
+                "_name": "checkTypes",
+                "owners": "263022",
+                "x": "1057.947998046875",
+                "y": "494.2083435058594"
+            },
+            "33": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "189298",
+                "_name": "generateSymbolTable",
+                "owners": "263022",
+                "x": "1057.947998046875",
+                "y": "527.7083740234375"
+            },
+            "34": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "97214",
+                "_name": "passedToIntCodeGenerator",
+                "owners": "254846",
+                "x": "1057.947998046875",
+                "y": "561.2083740234375"
+            },
+            "35": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "619498",
+                "_name": "getAnnotatedSyntaxTree",
+                "owners": "250652",
+                "x": "1057.947998046875",
+                "y": "573.375"
+            },
+            "36": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "10305",
+                "_name": "produceQuads",
+                "owners": "250652",
+                "x": "1057.947998046875",
+                "y": "574.0416870117188"
+            },
+            "37": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "188137",
+                "_name": "exportIntermediateRepresentation",
+                "owners": "250652",
+                "x": "1057.947998046875",
+                "y": "573.7083740234375"
+            },
+            "38": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "946989",
+                "_name": "passedToCodeOptimizer",
+                "owners": "446752",
+                "x": "1057.947998046875",
+                "y": "573.875"
+            },
+            "39": {
+                "_type": "Link",
+                "class": "link",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "356804",
+                "_name": "New Link",
+                "linkState": "point2",
+                "idComponent1": "250652",
+                "idComponent2": "446752"
+            },
+            "40": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "339825",
+                "_name": "eliminateDeadCode",
+                "owners": "895427",
+                "x": "1057.947998046875",
+                "y": "550.7083740234375"
+            },
+            "41": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "411220",
+                "_name": "compileTimeEvaluation",
+                "owners": "895427",
+                "x": "1057.947998046875",
+                "y": "584.2083740234375"
+            },
+            "42": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "496256",
+                "_name": "strengthReduction",
+                "owners": "895427",
+                "x": "1057.947998046875",
+                "y": "617.7083740234375"
+            },
+            "43": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "187144",
+                "_name": "exportOptimizedCode",
+                "owners": "895427",
+                "x": "1057.947998046875",
+                "y": "651.2083740234375"
+            },
+            "44": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "705627",
+                "_name": "passedToCodeGenerator",
+                "owners": "399674",
+                "x": "1057.947998046875",
+                "y": "574.3333740234375"
+            },
+            "45": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "513391",
+                "_name": "createExecutable",
+                "owners": "411520",
+                "x": "1057.947998046875",
+                "y": "550.2083740234375"
+            },
+            "46": {
+                "_type": "Function",
+                "class": "function",
+                "_description": "No description added.",
+                "moreInfo": "No info has been added.",
+                "_id": "40372",
+                "_name": "produceMachineCode",
+                "owners": "411520",
+                "x": "1057.947998046875",
+                "y": "583.7083740234375"
+            },
+            "idList": " 250652,46208,346762,308242,492622,263022,254846,650323,757046,20571,923548,519924,630303,972016,609239,446752,895427,683325,399674,495893,411520,102734,180664,590367,899163,505741,846613,958219,900651,169682,667652,748603,227718,189298,97214,619498,10305,188137,946989,356804,339825,411220,496256,187144,705627,513391,40372",
+            "functionCounter": "22"
+        },
+        "domElement": {},
+        "domFunctions": {},
+        "treeObj": "{\"id\":\"L982358branch\",\"parent\":\"#\",\"text\":\"Initial\"}"
+    }
+}

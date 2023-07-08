@@ -1,0 +1,580 @@
+:root {
+    /*------------------Components------------------*/
+    --componentTextSize: 10pt;
+    --componentTextFamily: Arial, Helvetica, sans-serif;
+    --componentFontWeight: normal;
+    --componentFontStyle: normal;
+    --componentTextDecoration: none;
+    --componentTextBackgroundColor: transparent;
+    --componentTextColor: #000000;
+    --componentBackgroundColor: #FFFFFF;
+    --componentBorderColor: #000000;
+    --componentBorderWidth: 1px;
+    --componentSelectedBorderColor: #0000ff;
+    --componentTextBorderWidth: 0px;
+    --componentInnerMarginX: 19px;
+    --componentInnerMarginY: 19px;
+    --subcomponentTextSize: 10pt;
+    --subcomponentTextColor: #000000;
+    --subcomponentBackgroundColor: #FFFFFF;
+    --descriptionColor: #545454;
+    --descriptionLines: 2;
+    /*------------------Operations------------------*/
+    --operationTextSize: 12pt;
+    --operationTextFamily: Arial, Helvetica, sans-serif;
+    --operationFontWeight: "normal";
+    --operationFontStyle: "normal";
+    --operationTextDecoration: "none";
+    --operationTextBackgroundColor: transparent;
+    --operationTextColor: #000000;
+    --operationColor: transparent;
+    --operationBorderColor: transparent;
+    --operationSelectedBorderColor: #0000FF;
+    --operationDraggingColor: #009dff;
+    --operationOrphanColor: transparent;
+    --operationBorderWidth: 3px;
+    --operationBorderWidth: 3px;
+    --selectedOperationsWidth: fit-content;
+    /*------------------Links------------------*/
+    --linkTextSize: 10pt;
+    --linkTextFamily: Arial, Helvetica, sans-serif;
+    --linkFontWeight: "normal";
+    --linkFontStyle: "normal";
+    --linkTextDecoration: "none";
+    --linkTextBackgroundColor: transparent;
+    --linkTextColor: #000000;
+    --linkArrowColor: #000000;
+    --linkColor: #000000;
+}
+
+
+/* Style the tab */
+
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    background-color: #557da5;
+}
+
+
+/* Style the buttons inside the tab */
+
+
+/* 
+.tab button {
+    background-color: #557da5;
+    color: #FFFFFF;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 11px;
+    transition: 0.3s;
+    font-size: 15px;
+} */
+
+.tabButtonPressed {
+    background-color: rgb(241, 241, 241);
+    color: rgb(85, 125, 165);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 11px;
+    transition: 0.3s;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+}
+
+.tabButton {
+    color: rgb(241, 241, 241);
+    background-color: rgb(85, 125, 165);
+    font-weight: normal;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 11px;
+    transition: 0.3s;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+}
+
+.tabButton:hover {
+    background: #618fbd !important;
+}
+
+
+/* Change background color of buttons on hover
+.tab button:hover {
+  background-color: #ddd;
+}
+ .tab button:focus{
+  background-color: #ccc;
+} 
+.tab button.active {
+  background-color: #ccc;
+} */
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    height: 100%;
+    padding: 7px 12px;
+}
+
+#up_tab {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+#left_tab {
+    float: left;
+    height: 80%;
+    width: 18%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.connector {
+    height: 1px;
+    background-color: var(--linkColor);
+}
+
+.workspace {
+    /* float: left; */
+    left: -250px;
+    height: inherit;
+    width: inherit;
+    /* background-color: rgb(210, 212, 236); */
+    z-index: 2;
+}
+
+#right_tab {
+    float: right;
+    width: 18%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    /* border: 1px solid #ccc; */
+    background-color: #f1f1f1;
+}
+
+.component {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    cursor: grab;
+    font-size: medium;
+    /* border-radius: 10%; */
+    color: black;
+    /* outline-color: black; */
+    z-index: 9;
+    background: var(--componentBackgroundColor);
+    /* background: transparent; */
+    /* outline: 2px black; */
+    /* outline-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--componentBorderWidth) solid var(--componentBorderColor);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+/* 
+.pillowY{
+    width: var(--componentInnerMarginX);
+    height: 20px;
+    margin-top: 7px ;
+    background-color: aquamarine;
+}
+.pillowX{
+    width: 75%;
+    height: 4px;
+    background-color: aquamarine;
+} */
+
+.selected {
+    width: fit-content;
+    height: auto;
+    /* height: 75px; */
+    text-align: center;
+    position: absolute;
+    cursor: grab;
+    /* border-radius: 10%; */
+    color: black;
+    z-index: 9;
+    background: var(--componentBackgroundColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: transparent; */
+    /* outline: 2px auto; */
+    /* outline-color: blue; */
+    -moz-box-sizing: border-box;
+    /* border: 2px  solid rgba(0,0,0,0.5);  */
+    border: var(--componentBorderWidth) solid var(--componentSelectedBorderColor);
+    box-sizing: border-box;
+}
+
+.resizer {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: se-resize;
+}
+
+.photo_rectangle {
+    /* background-image: url("./icons8-add-new-96.png"); */
+    /* align-content: center; */
+    overflow: hidden;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    outline-color: black;
+    width: 30px;
+    height: 30px;
+    margin-top: 1.5px;
+    border: 1px solid transparent;
+}
+
+.unselectable {
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* font-size: small; */
+    white-space: nowrap;
+}
+
+.unselectableText {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 19;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #f04d4d;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.functionRec {
+    width: 95%;
+    height: 83%;
+    /* height: 57%; */
+    margin-left: 2.5%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: scroll;
+    padding-bottom: 12px;
+    padding-top: 3px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.function {
+    height: fit-content;
+    width: var(--selectedOperationsWidth);
+    cursor: grab;
+    text-align: right;
+    line-height: 170%;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-top: calc(var(--operationBorderWidth));
+    z-index: 11;
+    display: inline-block;
+    background-color: var(--operationColor);
+    border: 2px solid var(--operationBorderColor);
+    /* outline: var(--operationBorderWidth) solid var(--operationBorderColor); */
+}
+
+.fName {
+    height: 26px;
+    font-size: var(--operationTextSize);
+    font-family: var(--operationTextFamily);
+    font-weight: var(--operationFontWeight);
+    font-style: var(--operationFontStyle);
+    text-decoration: var(--operationTextDecoration);
+    color: var(--operationTextColor);
+    background-color: var(--operationTextBackgroundColor);
+    text-align: left;
+    margin-left: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 4px;
+}
+
+.ficon {
+    float: left;
+    margin-right: 14px;
+    margin-top: 1.35px;
+    margin-left: 5px;
+    width: 24px;
+    height: 25px;
+    background: no-repeat;
+    background-image: url('../images/fIcon.png');
+}
+
+.fIconSetted {
+    float: left;
+    margin-right: 5px;
+    margin-top: 1.35px;
+    margin-left: 5px;
+    width: 33px;
+    height: 25px;
+    background: no-repeat;
+    background-image: url('../images/fIconSetted.png');
+}
+
+.overflowDis {
+    overflow: hidden;
+}
+
+.selectedFunction {
+    height: fit-content;
+    width: var(--selectedOperationsWidth);
+    /*29px to height*/
+    padding-right: 10px;
+    text-align: center;
+    cursor: grab;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* position: absolute; */
+    line-height: 170%;
+    border: 2px solid blue;
+    /* border: 2px  solid rgba(0,0,0,0.5);  */
+    box-sizing: border-box;
+    z-index: 11;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: calc(var(--operationBorderWidth));
+    background-color: var(--operationColor);
+    border-color: var(--operationSelectedBorderColor);
+}
+
+.bodyDot {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+hr.solid {
+    border: 1px solid #ccc;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.no-outline:focus {
+    outline: none;
+    border: 0;
+}
+
+.no-outline {
+    outline: none;
+    border: 0;
+}
+
+.seperativeLine {
+    width: auto;
+    height: 2px;
+    background-color: gray;
+}
+
+.subComponent {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: none;
+    white-space: nowrap;
+    font-size: var(--subcomponentTextSize);
+    color: var(--subcomponentTextColor);
+    background-color: var(--subcomponentBackgroundColor);
+}
+
+.customHr {
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0);
+}
+
+.linkName {
+    font-size: var(--linkTextSize);
+    font-family: var(--linkTextFamily);
+    font-weight: var(--linkFontWeight);
+    font-style: var(--linkFontStyle);
+    text-decoration: var(--linkTextDecoration);
+    color: var(--linkTextColor);
+    background-color: var(--linkTextBackgroundColor);
+}
+
+.componentName {
+    width: 100%;
+    height: fit-content;
+    /* padding-left: var(--componentInnerMarginX);
+    padding-right: var(--componentInnerMarginX);
+    padding-top: var(--componentInnerMarginY);
+    padding-bottom: var(--componentInnerMarginY); */
+    /* can be done with calc */
+    position: relative;
+    font-size: var(--componentTextSize);
+    font-family: var(--componentTextFamily);
+    font-weight: var(--componentFontWeight);
+    font-style: var(--componentFontStyle);
+    text-decoration: var(--componentTextDecoration);
+    color: var(--componentTextColor);
+    border: var(--componentTextBorderWidth) solid black;
+    background-color: var(--componentTextBackgroundColor);
+    white-space: nowrap;
+}
+
+.focusName {
+    font-size: var(--linkTextSize);
+    font-family: var(--linkTextFamily);
+    font-weight: var(--linkFontWeight);
+    font-style: var(--linkFontStyle);
+    text-decoration: var(--linkTextDecoration);
+    color: var(--linkTextColor);
+    background-color: var(--linkTextBackgroundColor);
+}
+
+.blurName {
+    font-size: var(--linkTextSize);
+    font-family: var(--linkTextFamily);
+    font-weight: var(--linkFontWeight);
+    font-style: var(--linkFontStyle);
+    text-decoration: var(--linkTextDecoration);
+    color: var(--linkTextColor);
+    background-color: var(--linkTextBackgroundColor);
+}
+
+.layerPath {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(84, 84, 84);
+    width: fit-content;
+    position: absolute;
+    height: 20px;
+    z-index: 29;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.helper {
+    background-color: transparent;
+    border: 1px solid blue;
+    position: absolute;
+    z-index: 1;
+}
+
+.sideTabTittle {
+    margin-top: -1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: black;
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: x-large;
+}
+
+canvas {
+    outline: none;
+}

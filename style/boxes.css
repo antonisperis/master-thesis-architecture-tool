@@ -1,0 +1,356 @@
+.confirmationBox {
+    padding-bottom: 5px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    outline: 2px solid #768ca1;
+    color: #525252;
+    background-color: #e7e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 32.5%;
+    top: 5%;
+    position: absolute;
+    z-index: 48;
+}
+
+/* #387627 */
+.updatingBox {
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: #427b44;
+    background-color: #cbf3dc;
+    outline: 2px solid #afebc8;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 32.5%;
+    top: 5%;
+    position: absolute;
+    z-index: 48;
+}
+
+.selectingBox {
+    width: 250px;
+    height: 165px;
+    outline: 2px solid #768ca1;
+    text-align: center;
+    color: #525252;
+    background-color: #e7e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 32.5%;
+    top: 5%;
+    position: absolute;
+    z-index: 48;
+}
+
+.inputBox {
+    padding-top: 0.25%;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    color: #525252;
+    background-color: #f1f1f1;
+    outline: 2px solid #768ca1;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 32.5%;
+    top: 5%;
+    position: absolute;
+    z-index: 48;
+}
+
+.configurationBox {
+    outline: 2px solid #768ca1;
+    padding-bottom: 5px;
+    width: 720px;
+    height: auto;
+    text-align: center;
+    color: #525252;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 32.5%;
+    top: 5%;
+    position: absolute;
+    z-index: 48;
+}
+
+.layerInfoBox {
+    padding-top: 15px;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    color: #525252;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 8px;
+    top: 51.3%;
+    position: absolute;
+    z-index: 48;
+    cursor: grab;
+    outline: 1px solid rgb(204, 204, 204);
+}
+
+.cancelButton {
+    width: 75px;
+    height: 35px;
+    border: 1px solid #969696;
+    background-color: #FFFFFF;
+    float: left;
+    margin-left: 25px;
+}
+
+.deleteButton {
+    width: 75px;
+    height: 35px;
+    background-color: #ff6464;
+    border: 0px;
+    float: right;
+    border-radius: 10%;
+    margin-right: 25px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.okButton {
+    width: 64.47px;
+    height: 28px;
+    border: 1px solid #1c5299;
+    background-color: #FFFFFF;
+    padding-top: 6px;
+    float: right;
+    font-size: small;
+    margin-right: 25px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* box-shadow: 4px 6px 3px rgb(0 0 0 / 40%); */
+}
+
+.closeBoxButton {
+    background-image: url('../images/oldCloseInfo.png');
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+    left: 372px;
+    float: right;
+    margin-right: 5px;
+    z-index: 30;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    background-size: contain;
+}
+
+select {
+    margin: 15px;
+    /* margin-left: 30px; */
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    float: left;
+    border: 1px solid #ccc;
+    height: 44px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('../images/arrowDown.png') right no-repeat #fff;
+}
+
+.buttonTeam {
+    margin-top: 8px;
+    height: 30px;
+}
+
+.boxTitle {
+    margin-bottom: 2px;
+    margin-right: 18px;
+}
+
+.closingLayer {
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 47;
+    /* Black w/ opacity */
+}
+
+.movingBar {
+    background-color: #557da5;
+    /* background-color: #FF00FF; */
+    height: 20px;
+    width: 100%;
+    position: relative;
+    cursor: all-scroll;
+    z-index: -20;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: small;
+    color: white;
+}
+
+.styleButton {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    font-size: large;
+    background-color: #f1f1f1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.styleButton:hover {
+    cursor: pointer;
+    background-color: #ccc;
+
+}
+
+.styleButtonPressed {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    font-size: large;
+    background-color: #ccc;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.styleButtonPressed:hover {
+    cursor: pointer;
+}
+
+.styleButtonsContainer {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-top: 16px;
+    margin-right: 14px;
+}
+
+.formContainer {
+    width: 97%;
+    height: auto;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.gridElement {
+    width: 33%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.layerInfoHint {
+    width: 28px;
+    height: 28px;
+    background-image: url(../images/circleHelp.png);
+    background-size: contain;
+    cursor: pointer;
+}
+
+.layerInfoHintPressed {
+    width: 28px;
+    height: 28px;
+    background-image: url(../images/greenHelp.png);
+    background-size: contain;
+    cursor: pointer;
+}
+
+.disabledInfoHint {
+    width: 28px;
+    height: 28px;
+    background-image: url(../images/disabledCircleHelp.png);
+    background-size: contain;
+}
+
+.cancelConfigButton {
+    width: 64.47px;
+    height: 28px;
+    background-color: #FFFFFF;
+    font-size: small;
+    border: #969696 solid 1px;
+    float: left;
+    margin-left: 25px;
+    /* box-shadow: 4px 6px 3px rgb(0 0 0 / 40%); */
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tick {
+    background-image: url('../images/small_tick.png');
+    width: 29px;
+    height: 20px;
+    float: right;
+    margin-right: -2.5px;
+    z-index: 30;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+.formExternalClass {
+    width: 100%;
+    display: inline-block;
+    margin-top: 2.5px;
+}
+
+.tableElementsStyle {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: small;
+}
+
+.tableLabelsStyle {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: small;
+
+}
